@@ -1,0 +1,147 @@
+* {
+    max-width: 1440px;
+}
+
+:root {
+    --header-bg-white: #EDF2EC;
+    --nav-links-black: #010201;
+    --color-orange: #E06733;
+    --color-green: #499A18;
+    --color-gray: #717171;
+    --color-dark-gray: #636060;
+}
+
+.header {
+    background-color: var(--header-bg-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(img/logo.png);
+    width: 79.17px;
+    height: 21.04px;
+    display: block;
+    background-position: center;
+    background-size: 100%;
+    margin: 52px 0 60px 111px;
+}
+
+.menu {
+    display: flex;
+    gap: 46px;
+    margin: 0 109px 0 0;
+}
+
+.menu a {
+    font-family: 'Inika';
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--nav-links-black);
+}
+
+.menu a:hover {
+    color: #E06733;
+    transition: all 0.3s linear;
+}
+
+.welcome {
+    background-color: var(--header-bg-white);
+    display: flex;
+    height: 532px;
+}
+
+.welcome-img {
+    background: url(img/leafs.png);
+    display: block;
+    width: 448.8px;
+    height: 407.36px;
+    background-size: 100%;
+    margin: 62px 0 62px 109px;
+}
+
+.welcome-text {
+    width: 549px;
+    height: 340px;
+    margin: 98px 109px 94px 224px;
+}
+
+.welcome-text h1 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--color-gray);
+}
+
+.welcome-text span {
+    color: var(--color-green);
+}
+
+.welcome-text p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-dark-gray);
+    line-height: 35px;
+    margin: 42px 0 48px;
+}
+
+.welcome-text a {
+    color: var(--nav-links-black);
+    width: 158px;
+    height: 44px;
+    border: solid 2px var(--color-orange);
+    border-radius: 10px;
+    padding: 14px 24px;
+    display: inline-block;
+}
+
+.welcome-text a:hover {
+    color: var(--nav-links-black);
+    background: var(--color-orange);
+    transition: all .3s linear;
+}
+
+.about {
+    display: flex;
+}
+
+.about-img {
+    background: url(img/houseplant\ 1.png);
+    width: 464px;
+    height: 479px;
+}
+
+.about-text {
+    width: 605px;
+    height: 350px;
+    margin: 161px 0 155px 109px;
+}
+
+.about-text h3 {
+    font-family: 'Inika';
+    color: var(--color-green);
+    width: 463px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.about-text span {
+    color: var(--color-orange);
+}
+
+.about-text p {
+    font-family: 'Inter';
+    color: var(--color-dark-gray);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.about-img {
+    margin: 93px 0 0 153px;
+}
