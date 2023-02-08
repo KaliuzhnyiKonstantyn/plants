@@ -145,3 +145,95 @@
 .about-img {
     margin: 93px 0 0 153px;
 }
+
+.service {
+    background: var(--header-bg-white);
+    max-height: 1300px;
+}
+
+.content {
+    display: flex;
+    font-family: 'Inika';
+}
+
+.content h2 {
+    color: var(--color-green);
+    margin: 40px 0 0 109px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    width: 306px;
+    height: 94px
+}
+
+.content ul {
+    display: flex;
+    gap: 38px;
+    margin: 69px 0 0 142px;
+}
+
+.service-btn {}
+
+.service-btn a {
+    color: var(--color-orange);
+    width: 161px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    border: solid 2px var(--color-orange);
+    border-radius: 10px;
+    padding: 12px 40px;
+    display: inline-block;
+}
+
+.service-btn a:hover {
+    color: var(--nav-links-black);
+    background: var(--color-orange);
+    transition: all .3s linear;
+}
+
+.servise-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 90px 0 0 109px;
+    gap: 0 116px;
+    width: 1222px;
+    height: 955px;
+}
+
+.service-card {
+    flex-basis: 27%;
+    border: solid 1px #E3E1D5;
+    border-radius: 20px;
+    width: 330px;
+    height: 450px;
+}
+
+.service-card:hover {
+    transform: scale(1.2);
+}
+
+.service-card img {
+    width: 329px;
+    height: 350px;
+}
+
+.service-card h4 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--color-orange);
+    text-align: center;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-family: 'Inter';
+    color: var(--color-gray);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
